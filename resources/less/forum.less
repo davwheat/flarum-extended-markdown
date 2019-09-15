@@ -1,0 +1,47 @@
+label.extendedmarkdown--checkbox
+  > input[type="checkbox"].extendedmarkdown--checkbox-input {
+  visibility: hidden;
+  margin-right: 8px;
+  position: relative;
+}
+
+label.extendedmarkdown--checkbox
+  > input[type="checkbox"].extendedmarkdown--checkbox-input::before, label.extendedmarkdown--checkbox
+  > input[type="checkbox"].extendedmarkdown--checkbox-input::after {
+      position: absolute;
+  }
+
+label.extendedmarkdown--checkbox
+  > input[type="checkbox"].extendedmarkdown--checkbox-input::before {
+  content: "";
+  display: inline-block;
+  visibility: visible;
+
+  height: 16px;
+  width: 16px;
+
+  border: 2px solid #000;
+
+  /* centres with label text */
+  top: -3px;
+
+  cursor: pointer;
+}
+
+label.extendedmarkdown--checkbox
+  > input[type="checkbox"].extendedmarkdown--checkbox-input:checked::after {
+  content: "";
+  display: inline-block;
+  visibility: visible;
+
+  height: 4px;
+  width: 9px;
+
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+
+  transform: rotate(-45deg);
+
+  left: 5px;
+  bottom: 4px;
+}
