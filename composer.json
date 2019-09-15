@@ -7,7 +7,8 @@
   "type": "flarum-extension",
   "license": "0BSD",
   "require": {
-    "flarum/core": "^0.1.0-beta.8"
+    "flarum/core": "^0.1.0-beta.8",
+    "fof/formatting": "^0.1.2"
   },
   "authors": [
     {
@@ -25,9 +26,9 @@
     "flarum-extension": {
       "title": "Extended Markdown",
       "icon": {
-        "name": "",
-        "backgroundColor": "",
-        "color": ""
+        "name": "fab fa-markdown",
+        "backgroundColor": "#e74c3c",
+        "color": "#fff"
       }
     },
     "flagrow": {
