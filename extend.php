@@ -32,14 +32,14 @@ return [
     (new Extend\Formatter)
         ->configure(function (Configurator $config) {
             $config->BBcodes->addCustom(
-                '[Z]{TEXT}',
+                '[Z]{TEXT}[/Z]',
                 '<label class="extendedmarkdown--checkbox"><input type="checkbox"  class="extendedmarkdown--checkbox-input" disabled/> {TEXT}</label>'
             );
         }),
     (new Extend\Formatter)
         ->configure(function (Configurator $config) {
             $config->BBcodes->addCustom(
-                '[X]{TEXT}',
+                '[X]{TEXT}[/X]',
                 '<label class="extendedmarkdown--checkbox"><input type="checkbox"  class="extendedmarkdown--checkbox-input" disabled checked/>{TEXT}</label>'
             );
         }),
