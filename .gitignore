@@ -2,4 +2,8 @@ node_modules
 vendor
 composer.lock
 
+# Local tests folder for less styles
 test
+
+# Compiled LESS file
+resources/less/forum.css
