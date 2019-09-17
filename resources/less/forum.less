@@ -1,62 +1,62 @@
 label.extendedmarkdown--checkbox
   > input[type="checkbox"].extendedmarkdown--checkbox-input {
-  visibility: hidden;
-  margin-right: 8px;
-  position: relative;
+  visibility: hidden !important;
+  margin-right: 8px !important;
+  position: relative !important;
 }
 
 label.extendedmarkdown--checkbox
   > input[type="checkbox"].extendedmarkdown--checkbox-input::before,
 label.extendedmarkdown--checkbox
   > input[type="checkbox"].extendedmarkdown--checkbox-input::after {
-  position: absolute;
+  position: absolute !important;
 }
 
 label.extendedmarkdown--checkbox
   > input[type="checkbox"].extendedmarkdown--checkbox-input::before {
-  content: "";
-  display: inline-block;
-  visibility: visible;
+  content: "" !important;
+  display: inline-block !important;
+  visibility: visible !important;
 
-  height: 16px;
-  width: 16px;
+  height: 16px !important;
+  width: 16px !important;
 
-  border: 2px solid #000;
+  border: 2px solid #000 !important;
 
   /* centres with label text */
-  top: -3px;
+  top: -3px !important;
 
-  cursor: pointer;
+  cursor: pointer !important;
 }
 
 label.extendedmarkdown--checkbox
   > input[type="checkbox"].extendedmarkdown--checkbox-input:disabled::before {
-  background: rgba(128, 128, 128, 0.4);
+  background: rgba(128, 128, 128, 0.4) !important;
 }
 
 label.extendedmarkdown--checkbox
   > input[type="checkbox"].extendedmarkdown--checkbox-input:checked::after {
-  content: "";
-  display: inline-block;
-  visibility: visible;
+  content: "" !important;
+  display: inline-block !important;
+  visibility: visible !important;
 
-  height: 4px;
-  width: 9px;
+  height: 4px !important;
+  width: 9px !important;
 
-  border-left: 2px solid #000;
-  border-bottom: 2px solid #000;
+  border-left: 2px solid #000 !important;
+  border-bottom: 2px solid #000 !important;
 
-  transform: rotate(-45deg);
+  transform: rotate(-45deg) !important;
 
-  left: 5px;
-  bottom: 4px;
+  left: 5px !important;
+  bottom: 4px !important;
 
-  cursor: pointer;
+  cursor: pointer !important;
 }
 
 label.extendedmarkdown--checkbox
   > input[type="checkbox"].extendedmarkdown--checkbox-input:disabled::before,
 label.extendedmarkdown--checkbox
   > input[type="checkbox"].extendedmarkdown--checkbox-input:disabled::after {
-  cursor: not-allowed;
+  cursor: not-allowed !important;
 }
